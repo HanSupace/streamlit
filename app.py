@@ -5,7 +5,7 @@ import numpy as np
 
 @st.cache_data
 def load_data():
-    df = pd.read_excel("자전거_분포_수정본.xlsx")
+    df = pd.read_excel("bike.xlsx")
     return df
 
 df = load_data()
